@@ -2,7 +2,7 @@
 
 A simple yet fully functional **ToDo application** that allows users to manage their tasks effectively.
 
-🔗 **Live Demo:**  
+🔗 **Live Demo:**
 📦 **Source Code:** [https://github.com/Indigoinspn/todo-app](https://github.com/Indigoinspn/todo-app)
 
 ---
