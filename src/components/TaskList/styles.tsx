@@ -6,9 +6,10 @@ export const ListContainer = styled.div`
   border-radius: 5px;
 `;
 
-export const List = styled.ul`
+export const List = styled.ul<{ alignCenter?: boolean }>`
   display: flex;
   flex-direction: column;
+  justify-content: ${(props) => (props.alignCenter ? 'center' : 'flex-start')};
   gap: 20px;
   list-style: none;
   padding: 10px 0px 30px 0px;
@@ -21,6 +22,4 @@ export const List = styled.ul`
 export const EmptyMessage = styled.p`
   text-align: center;
   color: ${theme.colors.tan};
-  margin: 100px 30px 40px;
-  min-height: 60vh;
 `;

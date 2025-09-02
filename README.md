@@ -2,7 +2,7 @@
 
 A simple yet fully functional **ToDo application** that allows users to manage their tasks effectively.
 
-🔗 **Live Demo:**
+🔗 **Live Demo:** [https://indigoinspn.github.io/todo-app](https://indigoinspn.github.io/todo-app)
 📦 **Source Code:** [https://github.com/Indigoinspn/todo-app](https://github.com/Indigoinspn/todo-app)
 
 ---
@@ -39,11 +39,15 @@ A simple yet fully functional **ToDo application** that allows users to manage t
 
 2. Install dependencies:
 
-   `npm install`
+   ```bash
+   npm install
+   ```
 
 3. Start the development server:
 
-   `npm run star`
+   ```bash
+   npm run star
+   ```
 
 4. Open in your browser:
 
@@ -51,8 +55,10 @@ A simple yet fully functional **ToDo application** that allows users to manage t
 
 ## 🧪 Running Tests
 
-`npm test`
+```bash
+ npm test
+```
 
 ## 🌐 Deployment
 
-Deployed with
+Deployed with GitHub Pages

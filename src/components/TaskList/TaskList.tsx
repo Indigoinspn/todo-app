@@ -5,17 +5,15 @@ import { $filteredTasks } from '../../store';
 
 const TaskList = () => {
   const tasks = useUnit($filteredTasks);
-
-  if (!tasks || tasks.length === 0) {
-    return <EmptyMessage>List is empty</EmptyMessage>;
-  }
+  const listIsEmpty = !tasks || tasks.length === 0;
 
   return (
     <ListContainer>
-      <List>
+      <List alignCenter={listIsEmpty}>
         {tasks.map((task) => (
           <TaskItem key={task.id} task={task} />
         ))}
+        {listIsEmpty && <EmptyMessage>List is empty</EmptyMessage>}
       </List>
     </ListContainer>
   );
